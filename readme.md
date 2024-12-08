@@ -10,3 +10,20 @@ Dalian University of Technology
 
 *****
 
+## 1. Generate Tactile Pattern Dataset
+
+```bash
+python utility/genTactileSRDataSet.py
+```
+
+## 2. Train SR model
+
+**tactileSRCNN**
+```bash
+python train/tactileSRCNN.py
+```
+
+**tactileSRGAN**
+```bash
+python train/tactileSRGAN.py
+```
